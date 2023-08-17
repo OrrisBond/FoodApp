@@ -1,0 +1,31 @@
+.cartBtn {
+  background-color: #9d1302;
+  color: white;
+  border: 1px solid #9d1302;
+  padding: 5px 2px;
+  width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cartBtn:hover {
+  background-color: #840f00;
+  border: 1px solid #840f00;
+}
+
+.cart {
+  font-size: 15px;
+}
+
+.counter {
+  background-color: #226f0c;
+  border-radius: 10px;
+  min-width: 50px;
+}
+
+.text {
+  font-size: 15px;
+}

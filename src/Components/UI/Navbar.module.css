@@ -1,0 +1,18 @@
+.cont {
+  background-color: #ffffff;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  z-index: 550;
+  top: 0;
+  border-bottom: 3px solid #9d1302;
+}
+
+h1 {
+  color: #9d1302;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

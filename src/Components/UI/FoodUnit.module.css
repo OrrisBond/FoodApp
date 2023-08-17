@@ -1,0 +1,85 @@
+.cont {
+  background-color: #9d1302;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px 50px 200px;
+  position: relative;
+}
+.cont img {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 35px;
+  border: black 1px solid;
+}
+
+.cont h1 {
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.cont p {
+  color: #dfdfdf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price {
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Add {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.math button {
+  width: 45px;
+  height: 45px;
+  margin: 10px 10px 5px 10px;
+  background-color: #9d1302;
+  border: #9d1302 1px solid;
+  color: white;
+  padding: 3px;
+  transition: ease all 0.5s;
+}
+
+.math button:hover {
+  background-color: #430800;
+  border: 1px solid #430800;
+}
+
+.math input {
+  width: 50px;
+  height: 45px;
+  padding-left: 5px;
+}
+
+.carted {
+  width: 160px;
+  height: 50px;
+  margin: 10px;
+  background-color: #9d1302;
+  border: #9d1302 1px solid;
+  color: white;
+  padding: 3px;
+  transition: ease all 0.5s;
+}
+.carted:hover {
+  background-color: #d61900;
+  border: 1px solid #d61900;
+}
+
+.dits {
+  width: 50%;
+  text-align: left;
+}
+
+.dits h1 {
+  margin: 10px;
+}
+.dits p {
+  margin: 10px;
+}

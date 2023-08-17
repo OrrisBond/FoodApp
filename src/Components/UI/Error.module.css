@@ -1,0 +1,36 @@
+.cont {
+  background-color: white;
+  width: 52%;
+  height: 22%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 40px;
+  position: absolute;
+  top: 40%;
+  left: 24.15%;
+}
+
+.back {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.268);
+  height: 100%;
+  width: 100vw;
+}
+
+.cont button {
+  padding: 10px;
+  color: #9d1302;
+  font-weight: bolder;
+  background-color: black;
+  border: solid 1px black;
+}
+
+.right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.left {
+  text-align: left;
+}

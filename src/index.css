@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url(https://wallpaperaccess.com/full/6169319.jpg);
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 90%);
+  margin-top: px;
+  background-size: cover;
+  height: 60vh;
+}
+
+.slogan {
+  position: absolute;
+  width: 40%;
+  background-color: #dfdfdfeb;
+  top: 30%;
+  left: 30%;
+  padding: 60px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #9d1302;
+  border-left: 2px solid #9d1302;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+#cartModal {
+  z-index: 500;
+}
+
+#infront {
+  z-index: 999;
+}
+
+.input {
+  width: 100%;
+  margin: 10px 20px;
+}
+
+.input input {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  margin: 10px 10px;
+}
+.input p {
+  margin-bottom: 20px;
+  font-size: small;
+}
+
+.error input {
+  border: 1px solid red;
+}
+.error label,
+.error p {
+  color: red;
+}
